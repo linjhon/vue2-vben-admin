@@ -67,6 +67,7 @@
   },
   "devDependencies": {
     "@babel/register": "^7.10.5",
+    "@commitlint/config-conventional": "^16.0.0",
     "@gfx/zopfli": "^1.0.15",
     "@ls-lint/ls-lint": "^1.9.2",
     "@types/echarts": "^4.6.5",
