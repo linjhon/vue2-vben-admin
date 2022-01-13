@@ -1,4 +1,4 @@
-import { UploadResult } from '@/api/demo/model/fileModel';
+import type { UploadResult } from '@/api/demo/model/fileModel';
 export { UploadResult };
 
 export interface PublicProps {

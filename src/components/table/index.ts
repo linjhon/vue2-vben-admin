@@ -4,7 +4,7 @@ import { getAsyncComponent } from '@/common/factory/getAsyncComponent';
 export { renderEditableCell } from './src/components/renderEditableCell';
 export { default as EditTableHeaderIcon } from './src/components/EditTableHeaderIcon.vue';
 export { useTable } from './src/hooks/useTable';
-export { FormSchema, FormProps } from '@/components/form/src/types/form';
+export type { FormSchema, FormProps } from '@/components/form/src/types/form';
 export * from './src/types/table';
 export * from './src/types/pagination';
 export * from './src/types/tableAction';

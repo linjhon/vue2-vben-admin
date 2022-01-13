@@ -1,7 +1,6 @@
 import { onUnmounted, getCurrentInstance } from 'compatible-vue';
-import { createContextMenu, offContextMenu, ContextMenuItem } from '@/components/context-menu';
-
-export { ContextMenuItem };
+import { createContextMenu, offContextMenu } from '@/components/context-menu';
+export type { ContextMenuItem } from '@/components/context-menu';
 export function useContextMenu(authRemove = true) {
   if (getCurrentInstance() && authRemove) {
     onUnmounted(() => {
